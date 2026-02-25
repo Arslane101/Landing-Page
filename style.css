@@ -22,7 +22,6 @@ ul, .section2 p, .section3 p {
 
 
 .section1 {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     background-color: #1f2937;
