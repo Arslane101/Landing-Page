@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com);
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+
+    
+
+}
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul, .section2 p, .section3 p {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+
+}
+
+
+
+.section1 {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+.section1 ul {
+    display: flex;
+    gap: 16px
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    width: 10%;
+    height: 60%;
+    font-weight: 900;
+    
+
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+
+.section2 h3 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+
+}
+
+.section3 {    
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+.placeholder {
+    display: flex;
+    background-color: gray;
+    padding: 48px;
+    margin: 50px;
+
+}
+
+.section5 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 5rem;
+}
+.block  {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.section6 {
+    background-color: #3882f6;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    margin: 5rem auto;
+    justify-content: space-evenly;
+    width: 50%;
+    border-radius: 10px;
+
+    
+}
+.section4 h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+}
+
+.section6 h4 {
+    font-size: 16px;
+    color: white;
+}
+.section6 p {
+    color: #F9FAF8;
+
+}
+
+.section6 button {
+    border: 3px solid white;
+    height: 15%;
+    width: 12%;
+    
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+    
+    
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+     
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+
+}
+
+.page-footer {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: white;
+    padding: 1rem;
+
+}
